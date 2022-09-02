@@ -53,8 +53,20 @@ function checkInputs() {
   });
 
   if (formIsValid) {
-    console.log("O formulário está 100% válido!");
+    alert("O formulário foi enviado!");
+    clearForm();
+    location.reload();
   }
+}
+
+function clearForm() {
+  const form = (document.getElementById("form").value = "");
+  const username = (document.getElementById("username").value = "");
+  const email = (document.getElementById("email").value = "");
+  const password = (document.getElementById("password").value = "");
+  const passwordConfirmation = (document.getElementById(
+    "password-confirmation"
+  ).value = "");
 }
 
 function setErrorFor(input, message) {

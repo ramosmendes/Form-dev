@@ -30,6 +30,10 @@ body {
 
 }
 
+.header h2 {
+    text-align: center;
+}
+
 .form {
     padding: 20px;
 }
