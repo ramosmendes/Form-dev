@@ -1,3 +1,3 @@
 # Form-dev
 
-Um formulário simples, para cadastro de clientes.
+Formulário de cadastro, utilizando JavaScript, HTML e CSS.
